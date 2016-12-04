@@ -1,15 +1,26 @@
 {
-  "name": "node-site",
+  "name": "site-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test Node web site",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EndaMoore/hello_world.git"
+  },
+  "author": "EndaMoore",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndaMoore/hello_world/issues"
+  },
+  "homepage": "https://github.com/EndaMoore/hello_world#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.3",
     "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
     "nodemon": "^1.11.0"
   }
 }
