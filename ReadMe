@@ -1,3 +1,38 @@
-Test git repo
-NodeSchool workshop using Git-it tutorials
-Test git diff
+Web site in Node.js 
+
+check install
+
+node -v
+npm -v
+
+create a directory for - mkdir site-node
+
+cd to site-node
+
+npm init
+
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+
+next
+npm install express –save
+
+touch server.js
+
+npm install nodemon –save  // may not work with linux
+
+
+
+ npm install ejs –save
+
+ npm install express-ejs-layouts –save
+
+npm install body-parser --save
